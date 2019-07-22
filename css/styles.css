@@ -63,3 +63,17 @@ a, a:visited {
 a:hover {
   color: red;
 }
+img {
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 130px;
+}
+
+button {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 130px;
+  justify-content: center;
+  align-items: center;
+}
