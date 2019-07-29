@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link href="../css/styles.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<<<<<<< HEAD
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
@@ -52,15 +53,70 @@
 <body>
 
   <div class="Menu">
+=======
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+body {
+  background: #f1b500;
+}
+body, a {
+  color: #222;
+}
+h1 {
+  font-size:50px
+}
+h2 {
+  font-size:25px
+}
+h3 {
+  font-size:25px
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+  <div class="dropdownMenu2">
+>>>>>>> 2c852068ddbc33af123a8acba15e99cc93ac0eec
 
     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Menu
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+<<<<<<< HEAD
       <a href="../index.html">
       <button class="dropdown-item" type="button">Home</button></a>
       <a href="../about.us/aboutus.html">
       <button class="dropdown-item" type="button">About</button></a>
+=======
+      <a href="../about.us/aboutus.html">
+      <button class="dropdown-item" type="button">About</button></a>
+      <a href="../index.html">
+      <button class="dropdown-item" type="button">Home</button></a>
+>>>>>>> 2c852068ddbc33af123a8acba15e99cc93ac0eec
       <a href="../contact.us/contactus.html">
       <button class="dropdown-item" type="button">Contact</button></a>
     </div>
@@ -70,7 +126,7 @@
   <form action="/action_page.php" class="needs-validation" novalidate>
     <h2>Contact Details</h2>
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" required>
 
     <label for="validationCustom01">Last Name</label>
     <input type="text" class="form-control" id="validationCustom01" placeholder="Last Name" required>
@@ -78,7 +134,6 @@
     <label for="validationCustom05">Email Address</label>
     <input type="text" class="form-control" id="validationCustom05" placeholder="Email Address" required>
     <div class="invalid-feedback">
-          Please provide a valid state.
                 </div>
 
                  <label for="Tickets">Number of Tickets</label>
@@ -98,7 +153,6 @@
                   <label for="validationCustom01">Total Cost</label>
                   <input type="text" class="form-control" id="validationCustom01" placeholder="£0.00" required>
                   <div class="invalid-feedback">
-                        Please provide a valid state.
                         </div>
 
                 <div class="row">
@@ -110,7 +164,7 @@
                           <div class="col-50">
                             <h3>Billing Address</h3>
                             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                            <input type="text" id="validationCustom01" name="firstname" placeholder="Name">
                             <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
                             <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
 
