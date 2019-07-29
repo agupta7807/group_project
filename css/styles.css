@@ -25,6 +25,7 @@ h1 {
   font-family: "Roboto Condensed";
   font-size: 20px;
   background-color: white;
+  border-radius: 10px;
 }
 
 h5 {
@@ -108,7 +109,7 @@ iframe {
   display: flex;
   align-content: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
   align-items: center;
   width: 100%;
 }
@@ -132,12 +133,13 @@ button {
   font-family: "Roboto Condensed";
   display: flex;
   margin: 0 auto;
-  border-radius: 0;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
   font-size: 30px;
   color: white;
   font-weight: 150;
   text-transform: uppercase;
-  background-color: blue;
+  background-color: grey;
+  padding: 5px;
 }
